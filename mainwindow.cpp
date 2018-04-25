@@ -6,6 +6,15 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    scene = new QGraphicsScene(this);
+    ui->graphicsView->setScene(scene);
+    scene->addEllipse(250,50,550,550,QPen(Qt::black,5),QBrush(Qt::blue));
+    //cat1 = new QPixmap(":/img/galaxy_starfield.png");
+    //qDebug() << "Cat size" << cat1->size();
+
+    //gitem = scene->addPixmap(*cat1);
+    //gitem->setScale(1);
+
 
 }
 
