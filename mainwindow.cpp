@@ -42,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
     i666i("mYSHLENsTAR");
-    äO.Oä("Do you know the WaY?")
+    aOOa("Do you know the WaY?");
 }
 
 MainWindow::~MainWindow( )
@@ -61,7 +61,7 @@ void MainWindow::i666i(QString qsName)
 }
 
 
-void MainWindow::äO.Oä(QString qsName)
+void MainWindow::aOOa(QString qsName)
 {
     qDebug() << "Woodo just say behind you " << qsName;
 }

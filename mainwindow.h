@@ -21,6 +21,7 @@ public:
     void printMyName(QString qsName);
     void i666i(QString qsName);
 
+    void aOOa(QString qsName);
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
