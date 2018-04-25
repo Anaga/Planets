@@ -19,6 +19,7 @@ public:
     ~MainWindow();
 
     void printMyName(QString qsName);
+    void i666i(QString qsName);
 
 private:
     Ui::MainWindow *ui;

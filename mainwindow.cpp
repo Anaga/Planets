@@ -41,7 +41,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
 
-    printMyName("mYSHLENsTAR");
+    i666i("mYSHLENsTAR");
 }
 
 MainWindow::~MainWindow( )
@@ -52,4 +52,9 @@ MainWindow::~MainWindow( )
 void MainWindow::printMyName(QString qsName)
 {
     qDebug() << "My name is " << qsName;
+}
+
+void MainWindow::i666i(QString qsName)
+{
+    qDebug() << "Satan new name is " << qsName;
 }
