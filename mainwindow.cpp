@@ -19,6 +19,29 @@ MainWindow::MainWindow(QWidget *parent) :
     printMyName("Boris");
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    printMyName("mYSHLENsTAR");
 }
 
 MainWindow::~MainWindow( )
