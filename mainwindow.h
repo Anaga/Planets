@@ -18,6 +18,8 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+    void printMyName(QString qsName);
+
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;

@@ -15,10 +15,17 @@ MainWindow::MainWindow(QWidget *parent) :
     //gitem = scene->addPixmap(*cat1);
     //gitem->setScale(1);
 
+    printMyName("Aleksandr");
+
 
 }
 
 MainWindow::~MainWindow( )
 {
     delete ui;
+}
+
+void MainWindow::printMyName(QString qsName)
+{
+    qDebug() << "My name is " << qsName;
 }
