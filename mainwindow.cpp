@@ -42,6 +42,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
 
     i666i("mYSHLENsTAR");
+    äO.Oä("Do you know the WaY?")
 }
 
 MainWindow::~MainWindow( )
@@ -57,4 +58,10 @@ void MainWindow::printMyName(QString qsName)
 void MainWindow::i666i(QString qsName)
 {
     qDebug() << "Satan new name is " << qsName;
+}
+
+
+void MainWindow::äO.Oä(QString qsName)
+{
+    qDebug() << "Woodo just say behind you " << qsName;
 }
