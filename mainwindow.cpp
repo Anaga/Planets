@@ -16,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //gitem->setScale(1);
 
     printMyName("Aleksandr");
+    printMyName("Boris");
 
 
 }
