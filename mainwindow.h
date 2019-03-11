@@ -25,6 +25,7 @@ public:
 private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
+    QPixmap *bg_pixmap;
     QGraphicsItem  *gi_bg;
 };
 

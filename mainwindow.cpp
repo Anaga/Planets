@@ -9,6 +9,9 @@ MainWindow::MainWindow(QWidget *parent) :
     scene = new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
     scene->addEllipse(250,50,550,550,QPen(Qt::black,5),QBrush(Qt::blue));
+
+    bg_pixmap = new QPixmap(":/img/galaxy_starfield.png");
+    gi_bg  = scene->setBackgroundBrush(QBrush(& QPixmap(bg_pixmap)));
     //cat1 = new QPixmap(":/img/galaxy_starfield.png");
     //qDebug() << "Cat size" << cat1->size();
 
